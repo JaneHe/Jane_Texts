@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KrXZyXt4yeoATnfn85hUwuKCKR7FxLck0DUM7AsniD82Eayn726avtQtP1LQszWkC40Wm3N0/VIvxFw2Wa5MgA==",
+  "success": true,
+  "projectFilePath": "F:\\项目文件\\HNAH_WMS\\YiShaAdmin\\3.1\\YiShaAdmin-master\\YiShaAdmin-master\\YiSha.Entity\\YiSha.Enum\\YiSha.Enum.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\YW\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

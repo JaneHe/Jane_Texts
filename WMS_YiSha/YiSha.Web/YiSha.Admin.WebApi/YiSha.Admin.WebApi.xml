@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>YiSha.Admin.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:YiSha.Admin.WebApi.Controllers.DataDictController.GetList(YiSha.Model.Param.SystemManage.DataDictListParam)">
+            <summary>
+            获取数据字典列表
+            </summary>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YiSha.Admin.WebApi.Controllers.NewsController.GetPageList(YiSha.Model.Param.OrganizationManage.NewsListParam,YiSha.Util.Model.Pagination)">
+            <summary>
+            获取文章列表
+            </summary>
+            <param name="param"></param>
+            <param name="pagination"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YiSha.Admin.WebApi.Controllers.NewsController.GetPageContentList(YiSha.Model.Param.OrganizationManage.NewsListParam,YiSha.Util.Model.Pagination)">
+            <summary>
+            获取文章列表
+            </summary>
+            <param name="param"></param>
+            <param name="pagination"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YiSha.Admin.WebApi.Controllers.NewsController.GetForm(System.Int64)">
+            <summary>
+            获取文章内容
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YiSha.Admin.WebApi.Controllers.NewsController.SaveForm(YiSha.Entity.OrganizationManage.NewsEntity)">
+            <summary>
+            保存文章
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YiSha.Admin.WebApi.Controllers.NewsController.JaneHe(System.String)">
+            <summary>
+            获取文章列表_JaneHe
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YiSha.Admin.WebApi.Controllers.UserController.Login(System.String,System.String)">
+            <summary>
+            用户登录
+            </summary>
+            <param name="userName"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YiSha.Admin.WebApi.Controllers.UserController.LoginOff(System.String)">
+            <summary>
+            用户退出登录
+            </summary>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="T:YiSha.Admin.WebApi.Controllers.AuthorizeFilterAttribute">
+            <summary>
+            验证token和记录日志
+            </summary>
+        </member>
+        <member name="F:YiSha.Admin.WebApi.Controllers.AuthorizeFilterAttribute.IgnoreToken">
+            <summary>
+            忽略token的方法
+            </summary>
+        </member>
+        <member name="M:YiSha.Admin.WebApi.Controllers.AuthorizeFilterAttribute.OnActionExecutionAsync(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext,Microsoft.AspNetCore.Mvc.Filters.ActionExecutionDelegate)">
+            <summary>
+            异步接口日志
+            </summary>
+            <param name="context"></param>
+            <param name="next"></param>
+            <returns></returns>
+        </member>
+        <member name="M:YiSha.Admin.WebApi.Log.EmailErrorLog.#ctor">
+            <summary>
+            写入日志文件
+            </summary>
+        </member>
+        <member name="M:YiSha.Admin.WebApi.Log.EmailErrorLog.#ctor(System.Int32)">
+            <summary>
+            自动删除日志文件大小,此方法已经重载.
+            </summary>
+            <param name="fileSize">日志文件大小,单位KB</param>
+        </member>
+        <member name="P:YiSha.Admin.WebApi.Log.EmailErrorLog.LogFileName">
+            <summary>
+            日志文件完全名,
+            </summary>
+        </member>
+        <member name="M:YiSha.Admin.WebApi.Log.EmailErrorLog.writeInLog(System.String)">
+            <summary>
+            写入日志信息
+            </summary>
+            <param name="msg">日志内容</param>
+            <param name="IsAutoDelete">是否自动删除日志</param>
+        </member>
+        <member name="M:YiSha.Admin.WebApi.Log.EmailErrorLog.writeInLog(System.String,System.Boolean)">
+            <summary>
+            写入日志信息
+            </summary>
+            <param name="msg">日志内容</param>
+            <param name="IsAutoDelete">是否自动删除日志</param>
+        </member>
+        <member name="M:YiSha.Admin.WebApi.Log.EmailErrorLog.WriteLog(System.String)">
+            <summary>
+            记录日志
+            </summary>
+            <param name="msg"></param>
+        </member>
+    </members>
+</doc>

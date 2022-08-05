@@ -1,0 +1,59 @@
+﻿using System;
+using Newtonsoft.Json;
+using System.ComponentModel.DataAnnotations.Schema;
+using YiSha.Util;
+
+namespace YiSha.Entity.ToolManage
+{
+    /// <summary>
+    /// 创 建：admin
+    /// 日 期：2022-06-10 17:52
+    /// 描 述：实体类
+    /// </summary>
+    [Table("sysdepartment")]
+    public class DepartmentEntity : BaseExtensionEntity
+    {
+        /// <summary>
+        /// 部门名称
+        /// </summary>
+        /// <returns></returns>
+        public string DepartmentName { get; set; }
+        /// <summary>
+        /// 部门排序
+        /// </summary>
+        /// <returns></returns>
+        public int? DepartmentSort { get; set; }
+        /// <summary>
+        /// 部门Email
+        /// </summary>
+        /// <returns></returns>
+        public string Email { get; set; }
+        /// <summary>
+        /// 部门传真
+        /// </summary>
+        /// <returns></returns>
+        public string Fax { get; set; }
+        /// <summary>
+        /// 父部门Id(0表示是根部门)
+        /// </summary>
+        /// <returns></returns>
+        [JsonConverter(typeof(StringJsonConverter))]
+        public long? ParentId { get; set; }
+        /// <summary>
+        /// 部门负责人Id
+        /// </summary>
+        /// <returns></returns>
+        [JsonConverter(typeof(StringJsonConverter))]
+        public long? PrincipalId { get; set; }
+        /// <summary>
+        /// 备注
+        /// </summary>
+        /// <returns></returns>
+        public string Remark { get; set; }
+        /// <summary>
+        /// 部门电话
+        /// </summary>
+        /// <returns></returns>
+        public string Telephone { get; set; }
+    }
+}

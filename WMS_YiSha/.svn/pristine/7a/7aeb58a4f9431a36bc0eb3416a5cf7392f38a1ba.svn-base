@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "akxPnoEw3mIE3MYwN2IRBfUlNlHc/59oOZReEMpYFx+9nsQibEw1uHOfQI5Qxakismm3IRC4Akvbr5jZN8iVFQ==",
+  "success": true,
+  "projectFilePath": "F:\\项目文件\\HNAH_WMS\\YiShaAdmin\\3.1\\YiShaAdmin-master\\YiShaAdmin-master\\YiSha.Cache\\YiSha.Cache.Interface\\YiSha.Cache.Interface.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\YW\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}
